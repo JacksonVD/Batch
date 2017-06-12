@@ -1,0 +1,76 @@
+FULLY CUSTOMISABLE BATCH AND PS USER CREATON TOOL HYBRID
+Jackson Van Dyke 2013-2015
+
+Short Instructions:
+
+1. Change the settings in the settings file to fit your own
+2. Add your own users to the UserList file
+3. Do not remove the first two lines in Settings.ini - Only edit the parts below the instructional section
+   Include YEARLVL where you want to include the students year level in the student year level groups section
+4. Do not remove the first line in UserList.csv
+5. Run the script through the executable file included.
+
+OTHER INFORMATION:
+The students home directories will automatically be mapped to their accounts at their first logon.
+If you wish to change this or any part of the program, contact me at my addresses below and I'll make
+sure to make you a personalised script with your desired settings.
+
+Student homedrives will be mapped under this format: DIRECTORY\YEARLVL\USERNAME
+If you want that to be changed, I can also change that for you.
+
+INSTRUCTIONS:
+
+1. Create a file in any directory called UserList.csv.
+   This should be laid out as so:
+   USERNAME,BASIC/DEFAULT ORGANIZATIONAL UNIT,FULL NAME, YEAR LEVEL (If applicable)
+   Skip the first line or use it as a reference as it is automaitcally skipped.
+   I have also included a reference UserList.csv that you may modify to your liking. 
+
+2. Create your own custom settings through the included Settings.ini
+   If the script fails please let me know and I'll go over things with you.
+
+3. Run the script
+   DO NOT modify the script unless you know what you're doing.
+   The script should be able to add any number of users that you throw at it.
+
+4. If you wish to include a group containing the user's year level, if a student, add the group name and where
+   the year level occurs, add YEARLVL.
+
+5. Please also note that adding users to the Exchange server will depend on the speed of your network.
+   Also note that users are automatically added to a mailbox group equal to their year level. If you wish
+   I can customise this for you, I did this becuase I am too lazy to add anything extra right now.
+   However for many schools and organisatins this should be fine.
+
+6. This application is fully customisable. Students do not necessarily have to be students and teachers don't have to be teachers     etc.
+   Simply change the settings file accordingly to fit your organisations needs. 
+
+
+Background:
+
+I am a student that designs and implements programs in order to make both myself and others lives easier.
+I constantly try to push the boundaries of scripting languages such as BATCH which many believe is highly limited.
+I hold several Microsoft certifications as well as high distinctions, distinctions and medals for various
+computing courses.
+
+Late in 2013 I set myself a goal. I wanted to create a bulk user reation tool completely in BATCH.
+I prefer BATCH to other scripting languages such as PS and VBS because of it's ease of use and because it runs
+completely on tolls included on every modern Windows PC. So I set up a fully functioning test lab containing an
+Exchange server, DC, web server and file server. This was everything that I needed in order to test and develop the script.
+
+I later realised this was not possible when I got around to adding e-mail accounts for the users. For this I had to
+turn to PowerShell in order to make it work however the solution I came up with ended up only needing to be one line.
+
+At the moment the script is at 144 lines. Comparing this to many other programs of the type, it is remarkably small.
+
+Please suggest anything you want me to add or implement into the program at the e-mail addresses below.
+Ask me if you need any help configuring thigs or adding anything extra to the script.
+
+I can be contacted at:
+
+jacksonvd@live.com.au
+jacksonvd@amnet.net.au
+
+Acknowledgements:
+
+I would like to thank the users at StackOverflow for assisting in some automation tasks in the code, i.e. getting the custom
+number of sections in the domain name and various token errors I encountered.

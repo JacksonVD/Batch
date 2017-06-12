@@ -1,0 +1,6 @@
+OUTPUT EXAMPLE:
+TECHVD is my testing domain
+
+Added TestUser1 to Teachers on domain TECHVD 
+Added TestUser2 to Students on domain TECHVD 
+Added TestUser3 to Tech Support on domain TECHVD

@@ -1,0 +1,27 @@
+Release 0.92 : 2/04/13 - 17/04/13 (6/07/14 - Final Testing)
+
+Compiled source into an encrypted executable file
+Allowed YEARLVL variable to be placed anywhere within the string containing it.
+Changed domain name to allow any number of TLD's
+Added ability to add the user to any year level
+Added ability to add multiple groups containing YEARLVL
+Forced users to change password at first logon
+Added ability to run on any computer within the domain, not just the DC
+Added ability to change the default password for users - both staff and students
+
+Release 1.10 : 14/09/2014
+
+Changed ICO for file to fit with new version
+Various optimisation fixes - runs a lot faster
+Added separate mailbox database for staff and students
+Fixed up text that displays on the CMD window
+Re-added UserLog.txt - wasn't being created
+
+Release 1.15 : 22/01/2015
+
+Added proper error-checking in order to help clients debug problems and issues
+Cleaned up code - removed depricated functions and repeat functions
+Fixed some stability issues
+
+Want anything added? Feel free to contact me at my e-mail addresses listed
+in the Instructions document.
